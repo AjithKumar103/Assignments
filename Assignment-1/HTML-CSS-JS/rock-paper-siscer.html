@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock|Paper|Siscer</title>
+  <link rel="stylesheet" href="rock-paper-siscer.css">
+</head>
+<body>
+  <p id="title">Rock Paper Scissors</p>
+  <button class="button-move js-rock-button"><img src="rock-paper-scissors/rock-emoji.png"></button>
+
+  <button class="button-move js-paper-button"><img src="rock-paper-scissors/paper-emoji.png"></button>
+
+  <button class="button-move js-scissors-button"><img src="rock-paper-scissors/scissors-emoji.png"></button>
+
+  <p class="js-result result-style"></p>
+  <p class="js-moves moves-style"></p>
+  <p class="js-scores"></p>
+
+  <button class="reset-style" onclick="removeElements()">Reset Score</button>
+  <button class="autoplay-style" onclick="autoPlay()">Auto Play</button>
+
+  <script src="rock-paper-siscer.js"></script>
+</body>
+</html>
